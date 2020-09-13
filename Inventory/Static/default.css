@@ -1,0 +1,19 @@
+body{
+	background-color: black;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.header{
+	color: white;
+	font-size:50px;
+	text-align: center;
+	text-shadow: 2px white;
+	border-bottom:1px white solid;
+	padding: 10px;
+  	background: -webkit-linear-gradient(white,black);
+ 	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}

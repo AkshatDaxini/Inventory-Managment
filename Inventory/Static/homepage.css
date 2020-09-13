@@ -1,0 +1,183 @@
+.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+	border: 2px lightgrey solid;
+	border-radius: 50px;
+	background-color:grey;
+	margin-bottom: 20px;
+	color: white;
+	width: 370px;
+	height: 420px;
+}
+
+/*Delete form*/
+
+.deleteform{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.deleteform input[type=submit]
+{
+	align-self: center;
+	width: 90%;
+	background-color: black;
+	color:white;
+	border-radius: 30px;
+
+}
+
+
+/*Update form*/
+.updateform{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.updateform input[type=submit]
+{
+	align-self: center;
+	width: 90%;
+	border-radius: 30px;
+}
+
+
+/*Add form */
+.addform{
+	display: flex;
+	flex-direction: column;
+	margin-top:30px;
+	
+}
+.addform input[type=text],.addform input[type=number]{
+	color: black;
+}
+
+.addform input{
+	margin: 2px;
+	padding: 5px;
+	align-self: center;
+
+}
+.addform input[type=submit]
+{
+	
+	width: 90%;
+	border-radius: 20px;
+	background-color: black;
+	color:white;
+}
+
+#addimg{
+	align-self: center;
+	margin-top: 60px;
+	height: 200px;
+	width: 200px;
+}
+/*Search page*/
+#searchform{
+	display: inline-flex;	
+	float: right;	
+	margin-right: 5px;
+}
+
+#searchform input:hover
+{
+	border-bottom: 1px white solid;
+}
+
+/*Logout*/
+#logoutform input{
+	background-color:white;
+	width:100px;
+}
+#home{
+	text-decoration: none;
+	font-size: 20px;
+	color:black;
+	padding: 3px;
+	background-color:#EFEFEF;
+	border: 1px white solid;
+	height: 26px;
+	text-align: center;
+	
+}
+/*Sorting Form*/
+#sortprice{
+	display: inline-flex;	
+}
+.menu{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+
+#sortform{
+	display: inline-flex;
+	
+	
+}
+
+input[type=text],input[type=number]{
+	text-align: center;
+	color: white;
+	background: none;
+	border: none;
+	font-size:20px;
+	outline: none;
+	margin: 2px;
+	padding: 5px;
+
+}
+
+
+::placeholder {
+  color:white;
+}
+
+input[type=text]:focus, input[type=number]:focus{
+	border-bottom: 1px white solid;
+}
+
+input[type=submit]{
+	font-size:20px;
+}
+
+table input[type=text]{
+	width:170px;
+	outline: none;
+}
+
+table{
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px; 
+}
+
+table img{
+	margin-bottom: 15px;
+	margin-left: -20px;
+}
+
+table input:hover{
+	cursor:default; 
+}
+
+form input:hover{
+	cursor: hand;
+}
+table td{
+	font-size: 20px;
+}
+
+
